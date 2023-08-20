@@ -63,6 +63,10 @@ public class Main {
         car.stop();
     }
 
+    public static void action(Car car) {
+
+    }
+
     public static void smth(IFuleable fuleable) {
         fuleable.fuelVehicle();
     }
