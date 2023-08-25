@@ -57,4 +57,8 @@ public class Car implements ICar, IFuleable {
     public void fuelVehicle() {
         fuelCar();
     }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
 }
